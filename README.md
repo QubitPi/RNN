@@ -21,7 +21,7 @@ $$
 
 where
 
-- $\boldsymbol{h}^{(t)}$ is the hidden state vector of size $(\tau - 1)$
+- $\boldsymbol{h}^{(t)}$ is the state (or hidden) vector of size $(\tau - 1)$
 - $\boldsymbol{o}^{(t)}$ is the output produced by the model at step $t$ where $t \in \{1, 2, \cdots, \tau\}$
 - $\boldsymbol{\hat{y}^{(t)}}$ is the normalized probability of $\boldsymbol{o}^{(t)}$ at $\tau = t$
 - $\boldsymbol{b_h}$ is the hidden bias vector of size $\tau$
